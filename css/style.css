@@ -1,0 +1,202 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    height: 2600px;
+    background-color:hsl(0, 0%, 96.9%);
+}
+/* start header section */
+header
+{
+    background-image: url(https://img.freepik.com/free-photo/young-handsome-physician-medical-robe-with-stethoscope_1303-17818.jpg?size=626&ext=jpg&ga=GA1.1.1452583961.1693311908&semt=sph);
+    background-size: cover;
+    height: 700px;
+}
+@media only screen and (max-width:576px)
+{
+    header
+    {
+        height: auto;
+    }
+}
+/* start navbar section */
+nav{
+    width: 60%;
+    margin:auto;
+}
+.nav-link
+{
+    
+    margin-right: 35px;
+    color: white;
+    font-weight: 600;
+    font-size: 21px;
+}
+.btn-danger
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+.box-header
+{
+    height: 350px;
+    background-color:#6baa93;
+    padding: 65px 50px ;
+    border-radius: 8%;
+    font-size: 43px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color:white;
+    font-weight: 500;
+}
+@media only screen and (max-width:992px)
+{
+    .box-header
+    {
+       height: auto;
+    }
+}
+
+
+
+/* end navbar section */
+
+/* end header section */
+
+/* start section school clinic */
+.head-sec
+{
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 400;
+    text-align: center;
+    color: #0b3b2c !important;
+}
+hr
+{
+    width: 15%;
+    height: 6px;
+    margin: auto;
+    background-color:#e98317;
+    border: none;
+    
+}
+.header-text
+{
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: hsl(175.7, 28.7%, 47.8%); 
+    margin-bottom: 10px;
+}
+.text-school-clinic
+{
+    font-family: cursive;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+/* end section school clinic */
+
+/* start section touch */
+.love-job
+{
+    background-image:url(https://images.pexels.com/photos/806427/pexels-photo-806427.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size:cover;
+    height: 700px;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width:992px)
+{
+    .love-job
+    {
+       height: auto;
+    }
+}
+.image
+{
+   
+    background-color:white;
+    margin-right: 15px;
+    border-radius: 20px;
+    opacity: 1;
+    
+
+}
+.image h3
+{
+    font-size: 20px;
+    font-weight: 300;
+    color: #62a4a3;
+    margin-bottom: 20px;
+   
+}
+.image p
+{
+    color: #a4a48f;
+    line-height: 1.5;
+}
+.head-sec
+{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: cursive;
+    color:white;
+    font-size: 30px;   
+    font-weight: 400; 
+}
+/* end touch section */
+.footer
+{
+    height: 440px;
+    background-color:#0f7b65;
+    border-top-right-radius:200px;
+    border-top-left-radius: 200px;
+    
+}
+@media only screen and (max-width:992px)
+{
+    .footer
+    {
+       height: auto;
+    }
+}
+.madrasty
+{
+    padding-top: 80px;
+}
+.madrasty h2
+{
+    color:white;
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.madrasty p
+{
+    font-size: 20px;
+    color: white;
+}
+
+ li h2
+{
+    font-size:25px ;
+    color: #f48e7f;
+    margin-bottom: 10px;
+    
+}
+li a
+{
+    font-size:16px ;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    display: block;
+}
